@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: aireq-postgres
+    environment:
+      POSTGRES_DB: aireqgen
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    ports:
+      - "5432:5432"
+
+  app:
+    build: .
+    container_name: aireq-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
