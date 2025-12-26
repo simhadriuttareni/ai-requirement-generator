@@ -5,6 +5,19 @@ Designed with **clean architecture, security, and containerization**, suitable f
 
 ---
 
+## ⚠️ Note on Online Sandboxes
+
+This project is a production-style Spring Boot backend that relies on:
+- Docker
+- PostgreSQL
+- JVM runtime
+
+Online sandboxes (GitHub preview, StackBlitz, etc.) may not support
+Docker or database containers.
+
+Please run locally using Docker Compose (instructions below).
+
+
 ## 📌 Project Overview
 
 In real software teams, requirement gathering is often manual, inconsistent, and time-consuming.
@@ -216,8 +229,10 @@ volumes:
 Backend & AI Engineer
 Tech Stack: Java, Spring Boot, PostgreSQL, Docker, AWS, Kafka, Redis
 
-🔗 LinkedIn: [*(add your LinkedIn URL)](https://www.linkedin.com/in/simhadri-uttareni/)]*
-🔗 GitHub: *(this repository)*
+🔗 LinkedIn: (https://www.linkedin.com/in/simhadri-uttareni)
+🔗 GitHub: (https://github.com/simhadriuttareni/)
+🔗 Leetcode: (https://leetcode.com/u/simhadri_02/)
+
 
 ---
 
